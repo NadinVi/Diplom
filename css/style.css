@@ -810,9 +810,13 @@ flex-direction: column;
 }
 
 
+.popup_hidden {
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+}
 
 
-/* POPUP
 .popup_window {
 	display: flex;
     justify-content: center;
@@ -1051,7 +1055,7 @@ flex-direction: column;
     width: 100%;
     margin-bottom: 53px;
 }
-*/
+
 
 
 
