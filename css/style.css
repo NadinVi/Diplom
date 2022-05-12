@@ -70,7 +70,18 @@ body {
 
 
 .menu__button-label {
-	display: none;
+	/*display: none;*/
+	  width: 1px;
+  height: 1px;
+  /*clip: rect(1px, 1px, 1px, 1px);*/
+  position: absolute;
+}
+
+.menu__button {
+  width: 1px;
+  height: 1px;
+  clip: rect(1px, 1px, 1px, 1px);
+  position: absolute;
 }
 
 .menu-list {
@@ -1078,9 +1089,9 @@ flex-direction: column;
 }
 
 
-	.header {
+.header {
   background-image: url(../images/banner-bg-tablet.jpg);
-  /*background-position: center center;*/
+  background-position: center center;
   padding-top: 42px;
   background-size: 100% 100%;
 	}
@@ -1173,6 +1184,15 @@ flex-direction: column;
 
 .trends {
 	flex-wrap: wrap;
+
+}
+
+.trends_about {
+	width: 44%;
+}
+
+.trends_about:nth-child(n + 3):nth-child(-n + 4) {
+	margin-top: 3px;
 }
 
 
@@ -1228,7 +1248,7 @@ flex-direction: column;
 }
 
 .footer {
-	max-width: 696px;
+	max-width: 780px;
 }
 }
 
