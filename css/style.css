@@ -130,7 +130,7 @@ body {
 }
 
 
-.h2 {
+.h2_post_trend {
   font-size: 20px;
   color: #ffffff;
   font-family: "Open Sans";
@@ -310,7 +310,7 @@ body {
   text-decoration: underline;
 }
 
-.h2 {
+.h2_post {
   font-size: 20px;
   line-height: 1.2;
   color: #0f0d0e;
