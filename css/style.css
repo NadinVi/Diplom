@@ -517,7 +517,7 @@ body {
 
 .page-message {
   width: 270px;
-  margin-top: 55px;
+  margin-top: 51px;
 }
 
 .message::after {
@@ -605,7 +605,7 @@ body {
 
 .themes_block {
   width: 270px;
-  padding-top: 50px;
+  padding-top: 45px;
 }
 
 .themes {
@@ -694,7 +694,7 @@ box-sizing: border-box;
 .about_product {
 	display: flex;
 	flex-direction: column;
-	margin-top: 25px;
+	/*margin-top: 25px;*/
 
 }
 
@@ -778,7 +778,7 @@ flex-direction: column;
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 65px;
+  margin-top: 89px;
 }
 
 .footer-social {
@@ -789,7 +789,7 @@ flex-direction: column;
   padding-right: 38px;
 }
 
-.social_list:nth-child(n + 2) {
+.social_lists:nth-child(n + 2) {
 	margin-right: 30px;
 }
 
