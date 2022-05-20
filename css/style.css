@@ -662,7 +662,7 @@ body {
 	flex: wrap;
 	justify-content: space-between;
 	/*flex-grow: 1;*/
-	margin-top: 31px;
+	/*margin-top: 31px;*/
 	width: 1120px;
 	margin-left: auto;
 	margin-right: auto;
@@ -789,7 +789,7 @@ flex-direction: column;
   padding-right: 38px;
 }
 
-.social_lists:nth-child(n + 2) {
+.social_list:nth-child(n + 2) {
 	margin-right: 30px;
 }
 
