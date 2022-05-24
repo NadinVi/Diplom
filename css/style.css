@@ -144,7 +144,7 @@ body {
   text-align: start;
   justify-content: center;
   text-transform: uppercase;
-  margin-bottom: 35px;
+  margin-bottom: 31px;
 }
 
 .h2_trends {
@@ -258,7 +258,7 @@ body {
   box-sizing: border-box;
   max-width: 1170px;
   width: 100%;
-  margin-top: 66px;
+  margin-top: 58px;
   position: relative;
   margin-left: auto;
   margin-right: auto;
@@ -297,7 +297,7 @@ body {
   flex-wrap: wrap;
   list-style: none;
   align-items: center;
-  margin-bottom: 7px;
+  margin-bottom: 5px;
 }
 
 .info-name:nth-child(n + 2) {
@@ -325,7 +325,7 @@ body {
   font-weight: bold;
   text-align: start;
   text-transform: uppercase;
-  margin-bottom: 24px;
+  margin-bottom: 27px;
 }
 
 .link {
@@ -372,8 +372,12 @@ body {
   font-weight: regular;
   font-size: 15px;
   color: #0f0d0e;
-  line-height: 1.5;
-  margin-top: 49px;
+  line-height: 1.46;
+  margin-top: 46px;
+}
+
+.text {
+	margin-bottom: 20px;
 }
 
 .info_first_one:nth-child(n + 2) {
@@ -399,7 +403,7 @@ body {
 .posts_aside {
   display: flex;
   align-items: flex-start;
-  margin-bottom: 21px;
+  margin-bottom: 20px;
 }
 
 .aside-content {
@@ -420,7 +424,8 @@ body {
   font-weight: bold;
   margin: 0;
   padding: 0;
-  margin-bottom: 18px;
+  margin-bottom: 19px;
+  padding-left: 7px;
   text-align: center;
   font-size: 14px;
   color: #0f0d0e;
@@ -458,7 +463,7 @@ body {
   font-weight: bold;
   font-size: 14px;
   color: #000000;
-  margin-top: 9px;
+  margin-top: 4px;
   margin-left: 19px;
 }
 
@@ -485,7 +490,7 @@ body {
 }
 
 .search_box {
-  margin-top: 42px;
+  margin-top: 46px;
   width: 270px;
 }
 
@@ -522,7 +527,19 @@ body {
 
 .page-message {
   width: 270px;
-  margin-top: 51px;
+  margin-top: 56px;
+}
+
+.h3-message {
+    font-family: "Open Sans";
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: #0f0d0e;
+    text-transform: uppercase;
 }
 
 .message::after {
@@ -621,7 +638,7 @@ body {
 
 .themes_links {
   width: 270px;
-  height: 48px;
+  height: 47px;
 }
 
 .themes_links:after {
@@ -794,9 +811,7 @@ flex-direction: column;
   padding-right: 38px;
 }
 
-.social_list:nth-child(n + 2) {
-	margin-right: 30px;
-}
+
 
 .social_list {
   list-style-type: none;
@@ -845,13 +860,14 @@ flex-direction: column;
 }
 
 .copyright {
-  margin-top: 64px;
+  margin-top: 66px;
   text-align: center;
 }
 
 .footer-copyright {
   text-decoration: none;
   font-size: 12px;
+  padding-left: 15px;
   color: #999999;
   font-weight: bold;
 }
