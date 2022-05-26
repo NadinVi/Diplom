@@ -505,6 +505,7 @@ body {
 .search__field:hover {
   border: solid;
   border-color: #b59f5b;
+  border-width: 1px;
 }
 
 .button {
@@ -516,6 +517,10 @@ body {
   background-size: 18px 18px;
   background-repeat: no-repeat;
   background-position: center center;
+}
+
+.button:hover {
+	background-color: #000000;
 }
 
 .field_search {
@@ -556,16 +561,17 @@ body {
 }
 
 .field {
-  width: 250px;
   height: 49px;
   font-size: 13px;
   background-color: #f3f7f5;
   padding-left: 20px;
   border: none;
+  box-sizing: border-box;
 }
 
 .field:hover {
   border: solid;
+border-width: 1px;
   border-color: #b59f5b;
 }
 
@@ -579,6 +585,10 @@ body {
   background-color: #b59f5b;
   border: none;
   margin-top: 17px;
+}
+
+.button-submit:hover {
+	background-color: #000000;
 }
 
 .tegs_block {
