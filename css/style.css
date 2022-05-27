@@ -506,6 +506,8 @@ body {
   border: solid;
   border-color: #b59f5b;
   border-width: 1px;
+  padding: 19px 18px;
+
 }
 
 .button {
@@ -573,6 +575,8 @@ body {
   border: solid;
 border-width: 1px;
   border-color: #b59f5b;
+  padding-left: 19px;
+
 }
 
 .button-submit {
